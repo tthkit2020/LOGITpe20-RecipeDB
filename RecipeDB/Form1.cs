@@ -42,5 +42,28 @@ namespace RecipeDB
 
             }
         }
+
+        private void PopulateIngredients()
+        {
+            string query = "SELECT Ingredient.Name FROM Ingredient JOIN RecipeIngredient ON Ingredient.Id = RecipeIngredient.IngredientId WHERE RecipeIngredient.RecipeId = @RecipeId";
+            using(connection = new SqlConnection(connectionString))
+            using(SqlCommand command = new SqlCommand(query, connection))
+            using(SqlDataAdapter adapter = new SqlDataAdapter(command))
+            {
+                //get recipe id from the listRecipe listbox
+                command.Parameters.AddWithValue("@RecipeId", listRecipe.SelectedValue);
+                DataTable ingredientTable = new DataTable();
+                adapter.Fill(ingredientTable);
+
+                listIngredient.DisplayMember = "Name";
+                listIngredient.ValueMember = "Id";
+                listIngredient.DataSource = ingredientTable;
+            }
+        }
+
+        private void listRecipe_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            PopulateIngredients();
+        }
     }
 }

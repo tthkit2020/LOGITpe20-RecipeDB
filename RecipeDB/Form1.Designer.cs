@@ -30,6 +30,8 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.listRecipe = new System.Windows.Forms.ListBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.listIngredient = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // label1
@@ -48,12 +50,32 @@
             this.listRecipe.Name = "listRecipe";
             this.listRecipe.Size = new System.Drawing.Size(116, 134);
             this.listRecipe.TabIndex = 1;
+            this.listRecipe.SelectedIndexChanged += new System.EventHandler(this.listRecipe_SelectedIndexChanged);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(231, 38);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(59, 13);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Ingredients";
+            // 
+            // listIngredient
+            // 
+            this.listIngredient.FormattingEnabled = true;
+            this.listIngredient.Location = new System.Drawing.Point(234, 63);
+            this.listIngredient.Name = "listIngredient";
+            this.listIngredient.Size = new System.Drawing.Size(120, 134);
+            this.listIngredient.TabIndex = 3;
             // 
             // CookBook
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.listIngredient);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.listRecipe);
             this.Controls.Add(this.label1);
             this.Name = "CookBook";
@@ -68,6 +90,8 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ListBox listRecipe;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ListBox listIngredient;
     }
 }
 
