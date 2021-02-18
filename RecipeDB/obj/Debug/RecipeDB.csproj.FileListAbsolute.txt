@@ -1,0 +1,12 @@
+C:\Users\julia.voronetskaja\source\repos\RecipeDB\RecipeDB\bin\Debug\RecipeDB.mdf
+C:\Users\julia.voronetskaja\source\repos\RecipeDB\RecipeDB\bin\Debug\RecipeDB_log.ldf
+C:\Users\julia.voronetskaja\source\repos\RecipeDB\RecipeDB\bin\Debug\RecipeDB.exe.config
+C:\Users\julia.voronetskaja\source\repos\RecipeDB\RecipeDB\bin\Debug\RecipeDB.exe
+C:\Users\julia.voronetskaja\source\repos\RecipeDB\RecipeDB\bin\Debug\RecipeDB.pdb
+C:\Users\julia.voronetskaja\source\repos\RecipeDB\RecipeDB\obj\Debug\RecipeDB.csprojAssemblyReference.cache
+C:\Users\julia.voronetskaja\source\repos\RecipeDB\RecipeDB\obj\Debug\RecipeDB.CookBook.resources
+C:\Users\julia.voronetskaja\source\repos\RecipeDB\RecipeDB\obj\Debug\RecipeDB.Properties.Resources.resources
+C:\Users\julia.voronetskaja\source\repos\RecipeDB\RecipeDB\obj\Debug\RecipeDB.csproj.GenerateResource.cache
+C:\Users\julia.voronetskaja\source\repos\RecipeDB\RecipeDB\obj\Debug\RecipeDB.csproj.CoreCompileInputs.cache
+C:\Users\julia.voronetskaja\source\repos\RecipeDB\RecipeDB\obj\Debug\RecipeDB.exe
+C:\Users\julia.voronetskaja\source\repos\RecipeDB\RecipeDB\obj\Debug\RecipeDB.pdb
